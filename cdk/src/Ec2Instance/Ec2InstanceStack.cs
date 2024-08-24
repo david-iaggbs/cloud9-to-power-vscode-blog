@@ -109,7 +109,7 @@ namespace Ec2Instance
         {
           return new AmazonLinuxImage(new AmazonLinuxImageProps
           {
-            Generation = AmazonLinuxGeneration.AMAZON_LINUX_2,
+            Generation = AmazonLinuxGeneration.AMAZON_LINUX_2023,
             CpuType = AmazonLinuxCpuType.ARM_64
 
           });
