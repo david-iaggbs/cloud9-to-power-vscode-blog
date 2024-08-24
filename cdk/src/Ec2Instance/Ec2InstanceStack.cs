@@ -22,8 +22,8 @@ namespace Ec2Instance
           });
           var privateKey = keyPair.PrivateKey;
           // create a file with the privateKey
-          File.WriteAllText("cdk-key.pem", privateKey.ToString());
-          aws ssm get-parameter --profile sandbox-swe-dparra-admin --name /ec2/keypair/key-0c6b10bc0d3d2e86d --with-decryption --query Parameter.Value --output text > cdk-key-test.pem
+          //File.WriteAllText("cdk-key.pem", privateKey.ToString());
+          //aws ssm get-parameter --profile sandbox-swe-dparra-admin --name /ec2/keypair/key-0c6b10bc0d3d2e86d --with-decryption --query Parameter.Value --output text > cdk-key-test.pem
 
           //Subnet config for VPC      
           SubnetConfiguration[] subnetConfigurations = GetSubnetConfigurations();
