@@ -1,0 +1,34 @@
+# .NET
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Other
+*.pem
